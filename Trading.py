@@ -28,8 +28,6 @@ class style():  # Class of different text colours - default is white
 class BinanceTrading:
     def __init__(self):
         self.web3= Web3(Web3.HTTPProvider(os.getenv('RPC_URL')))
-        # self.web3= Web3(Web3.HTTPProvider("https://bsc-mainnet.core.chainstack.com/2cf7fd8a4c20d893e6d1e4cd8200d781"))
-
         self.myWalletAddress = os.getenv("WALLET_ADDRESS")
         self.token_abi= [{"constant": True, "inputs": [], "name": "decimals", "outputs": [{"name": "", "type": "uint8"}], "payable": False, "stateMutability": "view", "type": "function"},{"constant": True, "inputs": [], "name": "name", "outputs": [{"name": "", "type": "string"}], "payable": False, "stateMutability": "view", "type": "function"},{"constant": True, "inputs": [], "name": "symbol", "outputs": [{"name": "", "type": "string"}], "payable": False, "stateMutability": "view", "type": "function"},{"constant": True,"inputs": [{"name": "owner", "type": "address"}],"name": "balanceOf","outputs": [{"name": "", "type": "uint256"}],"payable": False,"stateMutability": "view","type": "function"}]
         self.pancake_factory = self.web3.to_checksum_address('0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73')
