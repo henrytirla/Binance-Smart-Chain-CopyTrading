@@ -1,4 +1,4 @@
-# Binance-Smart-Chain-CopyTrading
+# Pancake-Swap-CopyTrading-Bot
 Copy Buys and Sells of Mulitple Wallets at the same time
 
 # Features
