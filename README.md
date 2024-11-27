@@ -1,4 +1,4 @@
-# Pancake-Swap-CopyTrading-Bot
+# Pancakeswap-Copy-Trading-Bot
 Copy Buys and Sells of Mulitple Wallets at the same time
 
 # Features
